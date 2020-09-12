@@ -9,8 +9,8 @@ public class DBConnection {
 	 private static DBConnection instance;
 	    private Connection connection;
 	    private String url = "jdbc:derby:ecommercedb;create=true";
-	    private String username = "ashetty";
-	    private String password = "ashetty";
+	    private String username = "";
+	    private String password = "";
 
 	    private DBConnection() throws SQLException {
 	        try {
