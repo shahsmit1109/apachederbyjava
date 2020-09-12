@@ -32,8 +32,8 @@ public class DemoApplication {
 		System.out.println("Create customer API :- POST http://localhost:8080/customer?names={name of customer}");
 		CustomerController cont = new CustomerController();
 		List<String> names = new ArrayList<String>();
-		names.add("Amisha Shetty");
-		names.add("Nikith Shetty");
+		names.add("Sachin Tendulkar");
+		names.add("Saurav Ganguly");
 		cont.createCustomer(names);
 		System.out.println("");
 		TimeUnit.SECONDS.sleep(5);
